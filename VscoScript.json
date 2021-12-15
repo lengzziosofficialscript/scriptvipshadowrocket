@@ -1,0 +1,43 @@
+var obj = JSON.parse($response.body);
+
+obj={
+  "request_date_ms" : 1655536094,
+  "request_date" : "1560831070",
+  "subscriber" : {
+    "non_subscriptions" : {
+
+    },
+    "first_seen" : "1560831070",
+    "original_application_version" : "19615",
+    "other_purchases" : {
+
+    },
+    "management_url" : "itms-apps://apps.apple.com/account/subscriptions",
+    "subscriptions" : {
+      "VSCOANNUAL" : {
+        "is_sandbox" : false,
+        "period_type" : "normal",
+        "billing_issues_detected_at" : null,
+        "unsubscribe_detected_at" : null,
+        "expires_date" : "1655536094",
+        "grace_period_expires_date" : null,
+        "original_purchase_date" : "1560831070",
+        "purchase_date" : "1560831070",
+        "store" : "app_store"
+      }
+    },
+    "entitlements" : {
+      "membership" : {
+        "grace_period_expires_date" : null,
+        "purchase_date" : "1560831070",
+        "product_identifier" : "VSCOANNUAL",
+        "expires_date" : "1655536094"
+      }
+    },
+    "original_purchase_date" : "1560831070",
+    "original_app_user_id" : "54624336",
+    "last_seen" : "1560831070"
+  }
+}
+
+$done({body: JSON.stringify(obj)});
