@@ -6,7 +6,7 @@ obj= {
 
     "result": "success",
 
-    "msTime": 1609152869678,
+    "msTime": 2021-12-21T10:14:59Z,
 
     "accountCreatedMillis": null,
 
@@ -39,13 +39,13 @@ obj= {
 
         "productId": "com.alightcreative.motion.sub.yearly",
 
-        "period": "1y",
+        "period": "10y",
 
         "label": null,
 
         "details": null,
 
-        "expires": 1699389411000,
+        "expires": 2029-12-21T10:14:59Z,
 
         "valid": true,
 
